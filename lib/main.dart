@@ -5,11 +5,11 @@ import 'package:pokedex_flutter/common/routes/route.dart';
 import 'package:pokedex_flutter/features/pokedex/screens/home/container/home_container.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const PokedexFlutter());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class PokedexFlutter extends StatelessWidget {
+  const PokedexFlutter({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
